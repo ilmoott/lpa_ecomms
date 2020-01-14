@@ -1,5 +1,5 @@
 body {
-	font: 13px Arial, Helvetica, sans-serif;
+	font: 13px 'Lato', sans-serif;
 	color:#555;
 	margin: 5px;
 	background-color:#FFF;
@@ -40,7 +40,7 @@ a:hover {
 }
 .PageTitle {
   position: relative;
-  font: bold 1.2em arial;
+  font: bold 1.2em 'Lato', sans-serif;
   color: #9d9d9d;
   text-shadow: 1px 1px 0 #000000,1px 1px 0 #000000;
   border-bottom: #ff851a solid 2px;

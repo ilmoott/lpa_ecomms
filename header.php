@@ -7,6 +7,7 @@
     <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
     <script src="js/jquery-ui-1.12.1.custom/jquery-ui.min.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="header">

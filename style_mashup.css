@@ -3,16 +3,18 @@ html, body {
     padding: 0;
 }
 
-.item1 {grid-area: header;color: white; font-weight:bold; font-size:36px;font-family: "Roboto"; padding:15px 0; background-color: #1c2b5f;}
+.item1 {grid-area: header;color: white; font-weight:bold; font-size:36px;font-family: 'Lato', sans-serif;; padding:15px 0; background-color: #1c2b5f;}
 .item2 {grid-area: mission; color: snow; background-color: #1c2b5f;
     background-image: url(source.gif);no-repeat center center;
     background-size: cover;
     height:450px;
-    text-align: center; }
-.item3 {grid-area: maps; background-color: #000000; }
-.item4 {grid-area: youtube; background-color: #000000;}
-.item5 {grid-area: facebook; background-color: #000000;}
-.item6 {grid-area: footer; padding: 10px 0; font: 15px Arial, Helvetica, sans-serif;color: #f6f6f6; background-color: #002032;}
+    text-align: center;
+    padding: 10px;
+}
+.item3 {grid-area: maps; background-color: #000000; padding: 10px; }
+.item4 {grid-area: youtube; background-color: #000000; padding: 10px;}
+.item5 {grid-area: facebook; background-color: #000000; padding: 10px;}
+.item6 {grid-area: footer; padding: 10px; font: 15px 'Lato', sans-serif;color: #f6f6f6; background-color: #002032;}
 
 .grid-container {
     display: grid;
@@ -21,9 +23,9 @@ html, body {
             "mission mission mission mission maps maps"
             "youtube youtube youtube facebook facebook facebook"
             "footer footer footer footer footer footer";
-    grid-gap: 1px;
+    grid-gap: 10px;
     background-color: #000000;
-    font-family: Verdana;
+    font-family: 'Lato', sans-serif;
 }
 .grid-container > div{
     text-align:center;
@@ -32,13 +34,18 @@ p{
     font-size: 18px;
 }
 h1{
-    font weight: bold;
-    fontsize: 30px;
+    font-weight: bold;
+    font-size: 30px;
 }
-item1 > div
+
+.item1 > div
 {
     padding: 15px 0;
     font-weight: bold;
     background-color: #1e5799;
+}
+
+.item2 > p {
+    padding: 20px;
 }
 
